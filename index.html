@@ -1,47 +1,105 @@
 <!DOCTYPE html>
 <html>
- <head>
- <title> ceramic mug tutorial</title>
- <h2>a clay mug </h2>
- <h3> 2 ways !</h3>
+<head>
+  <title>Ceramic Mug Tutorial</title>
+  <style>
+    /* Ensure the body and html fill the whole page */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Graph Paper Background */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #ffffff;
+      background-image: 
+        linear-gradient(to right, #d3d3d3 1px, transparent 1px),
+        linear-gradient(to bottom, #d3d3d3 1px, transparent 1px);
+      background-size: 20px 20px; /* Adjust grid size here */
+      z-index: -1; /* Keeps the grid behind the content */
+    }
+
+    /* Content container */
+    .content {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto; /* Center the content horizontally */
+      background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
+    }
+  </style>
 </head>
+
 <body>
- <h1 style="margin-left:40%; margin-right:40%;"style="font-size:4em; "> HOW TO MAKE </h1>
-<ul>
-   <li><a href="#introduction">Introduction</a></li>
-   <li><a href="#habitat">Habitat</a></li>
-   <li><a href="#media">Media</a></li>
- </ul>
- <div id="introduction">
-   <h2>About Brown Bears</h2>
-   <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
-     Atlas bear and the Himalayan brown bear.</p>
-   <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
-   <h3>Species</h3>
-   <ul>
-     <li>Arctos</li>
-     <li>Collarus</li>
-     <li>Horribilis</li>
-     <li>Nelsoni (extinct)</li>
-   </ul>
-   <h3>Features</h3>
-   <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
- </div>
- <div id="habitat">
-   <h2>Habitat</h2>
-   <h3>Countries with Large Brown Bear Populations</h3>
-   <ol>
-     <li>Russia</li>
-     <li>United States</li>
-     <li>Canada</li>
-   </ol>
-   <h3>Countries with Small Brown Bear Populations</h3>
-   <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
- </div>
- <div id="media">
-   <h2>Media</h2>
-   <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg"/></a>
-   <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
- </div>
+  <!-- Content Container -->
+  <div class="content">
+    <h1>HOW TO MAKE: A Clay Mug</h1>
+    <h2>2 ways!</h2>
+
+    <p><strong>C</strong>eramic clay is a material used in the arts to create all types of art pieces in addition to useful and customizable tableware. Many artists who use clay make bowls, plates, vases, mugs, and other containers that are completely customizable! This is a guide to help you create a mug of your own! Keep in mind, these are instructions for those who have never made a clay mug and/or have no idea what to do with the ball of dirt and chemicals sitting in front of them.</p>
+
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#habitat">Habitat</a></li>
+      <li><a href="#media">Media</a></li>
+    </ul>
+
+    <div id="introduction">
+      <h2>About Brown Bears</h2>
+      <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
+      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
+      <h3>Species</h3>
+      <ul>
+        <li>Arctos</li>
+        <li>Collarus</li>
+        <li>Horribilis</li>
+        <li>Nelsoni (extinct)</li>
+      </ul>
+      <h3>Features</h3>
+      <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+    </div>
+
+    <div id="habitat">
+      <h2>Habitat</h2>
+      <h3>Countries with Large Brown Bear Populations</h3>
+      <ol>
+        <li>Russia</li>
+        <li>United States</li>
+        <li>Canada</li>
+      </ol>
+      <h3>Countries with Small Brown Bear Populations</h3>
+      <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+    </div>
+
+    <div id="media">
+      <h2>Media</h2>
+      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="Brown Bear"/></a>
+      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
+    </div>
+  </div>
 </body>
 </html>
+
