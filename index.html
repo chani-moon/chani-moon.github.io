@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ceramic Mug Tutorial</title>
-  <style>
-    /* Ensure the body and html fill the whole page */
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      font-family: Arial, sans-serif;
-    }
+ <title>Ceramic Mug Tutorial</title>
+ <style>
+   /* Ensure the body and html fill the whole page */
+   html, body {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+     font-family: Arial, sans-serif;
+   }
 
-    /* Graph Paper Background */
-    body::before {
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background-color: #ffffff;
-      background-image: 
-        linear-gradient(to right, #d3d3d3 1px, transparent 1px),
-        linear-gradient(to bottom, #d3d3d3 1px, transparent 1px);
-      background-size: 20px 20px; /* Adjust grid size here */
-      z-index: -1; /* Keeps the grid behind the content */
-    }
 
-    /* Content container */
-    .content {
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto; /* Center the content horizontally */
-      background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
+   /* Graph Paper Background */
+   body::before {
+     content: '';
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     background-color: #ffffff;
+     background-image:
+       linear-gradient(to right, #d3d3d3 1px, transparent 1px),
+       linear-gradient(to bottom, #d3d3d3 1px, transparent 1px);
+     background-size: 20px 20px; /* Adjust grid size here */
+     z-index: -1; /* Keeps the grid behind the content */
+   }
 
-    h1, h2 {
-      text-align: center;
-    }
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
+   /* Content container */
+   .content {
+     padding: 20px;
+     max-width: 800px;
+     margin: 0 auto; /* Center the content horizontally */
+     background-color: rgba(183, 161, 136, 0.9); /* Slightly transparent background */
+     border-radius: 8px;
+     box-shadow: 0 4px 10px rgba(209, 147, 147, 0.1);
+   }
 
-    ul li {
-      margin: 10px 0;
-    }
-  </style>
+
+   h1, h2 {
+     text-align: center;
+   }
+
+
+   ul {
+     list-style-type: none;
+     padding: 0;
+   }
+
+
+   ul li {
+     margin: 10px 0;
+   }
+ </style>
 </head>
 
+
 <body>
-  <!-- Content Container -->
-  <div class="content">
-    <h1>HOW TO MAKE: A Ceramic Mug</h1>
-    <h2>using the pinch pottery technique!</h2>
+ <!-- Content Container -->
+ <div class="content">
+   <h1>HOW TO MAKE: A Ceramic Mug</h1>
+   <h2>Using the Pinch Pottery Technique!</h2>
 
-    <p style="margin-left: 25px;"><strong>C</strong>eramic clay is a material used in the arts to create all types of art pieces in addition to useful and customizable tableware. Many artists who use clay make bowls, plates, vases, mugs, and other containers that are completely customizable! This is a guide to help you create a mug of your own! Keep in mind, these are instructions for those who have never made a clay mug and/or have no idea what to do with the ball of dirt and chemicals sitting in front of them.</p>
 
-   
-    <div id="introduction">
-      <h2>About Brown Bears</h2>
-      <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
-      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
-      <h3>Species</h3>
-      <ul>
-        <li>Arctos</li>
-        <li>Collarus</li>
-        <li>Horribilis</li>
-        <li>Nelsoni (extinct)</li>
-      </ul>
-      <h3>Features</h3>
-      <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
-    </div>
+   <p style="margin-left: 25px;"><strong>Ceramic clay</strong> is a material used in the arts to create all types of art pieces in addition to useful and customizable kitchen and tableware. Many artists who use clay make bowls, plates, vases, mugs, and other containers that are completely customizable! This is a guide to help you create a mug of your own! Keep in mind, these are instructions for those who have never made a clay mug and/or have no idea what to do with the ball of dirt and chemicals sitting in front of them; however, all are welcome!</p>
 
-    <div id="habitat">
-      <h2>Habitat</h2>
-      <h3>Countries with Large Brown Bear Populations</h3>
-      <ol>
-        <li>Russia</li>
-        <li>United States</li>
-        <li>Canada</li>
-      </ol>
-      <h3>Countries with Small Brown Bear Populations</h3>
-      <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
-    </div>
 
-    <div id="media">
-      <h2>Media</h2>
-      <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"><img src="https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg" alt="Brown Bear"/></a>
-      <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
-    </div>
-  </div>
+ 
+   <div id="introduction">
+     <h3>Materials Needed</h3>
+     <ul>
+       <li> - Clay (not Fimo clay or air dry, <a href="https://www.aardvarkclay.com/categories.php?cat=7" target="_blank"><strong>real clay</strong></a>)</li>
+       <li> - Sponge</li>
+       <li> - Bowl of water</li>
+       <li> - Scoring tool or pin tool </li>
+       <li> - Optional: metal, wood, or rubber *rib</li>
+     </ul>
+    <h3>1. Wedge your Clay  </h3>
+    <p> For a mug on the smaller side you will want to use under a pound of clay, otherwise, if you want a larger mug, use 1-2 lbs of your preferred clay. With this mound, you will start by wedging the clay which you can do by using the "Rams Head" technique. This is the most beginner friendly and easy way of wedging as it is quite straightforward. You can search for quick tutorials on YouTube or use <a href=" https://ceramicartsnetwork.org/daily/article/How-to-Wedge-Clay-Properly" target="_blank">this</a> website's instructions and video. By wedging your clay, you can prevent having problems with the clay later on since it takes any air out of the clay. </p>
+    <img src="https://expertclay.com/wp-content/uploads/2021/08/rams-head-wedging-6.jpg">
+   <h3>2. Create the Base</h3>
+    <p> With your thoroughly wedged clay, you can now start making the base of your mug. Roll the clay into a ball and use your thumbs to make a hole in the center but, be mindful to not make the hole too deep. With this, you can start building the walls and thinning out the sides. Be sure to rotate the clay as you go to avoid making the walls uneven. </p>
+    <h3>3. Shape your Mug</h3>
+    <p> After you have your desired height, continue pinching and rotating the mug, as well as adding shape as you go. At this time, you should utilize your rib of choice to add curves or straighten the walls. Once you are satisfied with what you have, you may use a wet sponge to smooth out any discrepancies. After this, let the mug dry for a while so its not too flimsy when you attach the handle. </p>
+    <h3>4. Make your Handle</h3>
+    <p> While the mug is drying, make your handle by using a small amount of clay. There are many ways to make a handle but two good options are a tube or a rectangular strip which with both, you will be curving into a "C" shape. Let your handle dry for a little while so it is not as delicate when you attach it. </p>
+    <h3>5. Attach the Handle</h3>
+    <p> After both your mug and handle have had time to get slightly firmer, use a scoring tool or pin tool to make the two points where the handle will attach. Dab some water on the areas to help with adhesion before you firmly but gently push the handle onto the two points. To smooth the points of adhesion, use your fingers and a sponge or bits of clay to blend the joints together. </p>
+    <h3>6. Finalize your Mug</h3>
+    <p> If you have made it to this point, congratulations! You are almost done. Take a look at your creation and make sure you are content with its outcome. If you find any dents, scratches, or anything else that may bother you, feel free to use a wet sponge to smooth it out or use your rib to add unique textures. Otherwise, you may consider smashing you mug and restarting. Remember, you have free will!! Now that you have a mug that satisfies your beverage needs, let it dry for several days to a week (or more depending on the temperatures) until it is leather hard which is firm but not brittle. It will dry best in a dry and cool place to slowly dry it out, which will help avoid cracking.  </p>
+    <h3>7. Firing and Glaze</h3>
+    <p> Now that your piece is ready for the kiln, you may start the first round of firing to set the mug. This is called the Bisque fire. After this, make sure that you rinse your piece with water and let it dry so you can glaze it. Use either <a href="https://highwaterclays.com/collections/high-fire-1" target="_blank">high fire</a> or <a href="https://highwaterclays.com/collections/low-fire " target="_blank">low fire</a> glazes to decorate your mug and make a statement. After adding your glaze and letting it dry, you may fire it for the final time, finishing your clay mug. </p>
+   <div id="media">
+     <h2>*Different Types of Ribs and Their Uses:</h2>
+     <img src="https://blackmoon.uk/ch.star/thing.jpg">
+   </div>
+ </div>
 </body>
 </html>
-
